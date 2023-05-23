@@ -6,25 +6,19 @@ body {
     display: flex;
 }
 
-#left-column {
-    width: 30%;
-}
-
-#middle-column {
+#container {
     width: 40%;
     height: 70vh;
+    margin-left: 30%;
+    margin-right: 30%;
 }
 
-#right-column {
-    width: 30%;
-}
-
-#middle-column header {
+header {
     text-align: center;
     font-size: 3em;
 }
 
-#middle-column #about {
+#about {
     width: 100%;
     border: 1px solid #333;
     border-radius: 0.5em;
@@ -32,13 +26,13 @@ body {
     background-color: #EEE;
 }
 
-#middle-column #link {
+#link {
     width: 100%;
     font-size: 1em;
     padding: 0.5em;
 }
 
-#middle-column #submit {
+#submit {
     margin: auto;
     display: grid;
     margin: 1em auto;
