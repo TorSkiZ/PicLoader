@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+    display: flex;
+}
+
+#left-column {
+    width: 30%;
+}
+
+#middle-column {
+    width: 40%;
+}
+
+#right-column {
+    width: 30%;
+}
+
+#middle-column header {
+    text-align: center;
+    font-size: 3em;
+}
+
+#middle-column #about {
+    width: 100%;
+    border: 1px solid #333;
+    border-radius: 0.5em;
+    padding: 1em;
+    background-color: #EEE;
+}
+
+#middle-column #instagram-link {
+    width: 100%;
+    font-size: 1em;
+    padding: 0.5em;
+}
